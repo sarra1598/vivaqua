@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VivAqua - Contact</title>
+  <link rel="stylesheet" href="vivaqua.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Viv<span>Aqua</span></h1>
+    </div>
+    <div class="barre-recherche">
+      <input type="text" placeholder="Rechercher des informations" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="vivaqua.html">Accueil</a> |
+    <a href="calculateur.html">Calculateur Empreinte</a> |
+    <a href="gestes.html">Suivi Gestes</a> |
+    <a href="a_propos.html">À propos</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="contenu-principal">
+    <h2>Contactez-nous</h2>
+    <p>
+      Nous sommes ravis d'échanger avec vous ! Que vous ayez des questions, des suggestions, des partenariats à proposer ou simplement envie de partager vos idées, n'hésitez pas à nous contacter.
+    </p>
+
+    <div class="formulaire-contact">
+      <form action="#" method="POST">
+        <label for="nom">Votre Nom :</label>
+        <input type="text" id="nom" name="nom" required />
+
+        <label for="courriel">Votre Email :</label>
+        <input type="email" id="courriel" name="courriel" required />
+
+        <label for="sujet">Sujet :</label>
+        <input type="text" id="sujet" name="sujet" />
+
+        <label for="message">Votre Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </div>
+
+    <div class="info-contact">
+      <h3>Ou retrouvez-nous :</h3>
+      <p>Email : <a href="mailto:info@vivaqua.tn">info@vivaqua.tn</a></p>
+      <p>Téléphone : +216 25 258 2569 </p>
+      <p>Adresse : 12 Rue de l'énergie solaire, Charguia, Tunis </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VivAqua. Tous droits réservés.</p>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
