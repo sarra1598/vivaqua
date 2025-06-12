@@ -1,1 +1,1 @@
-# vivaqua
+VivAqua est une plateforme web éducative et interactive dédiée à la sensibilisation à la pénurie d’eau en Tunisie. Elle combine un calculateur d’empreinte hydrique et un système de suivi des gestes écologiques pour encourager les citoyens à adopter des habitudes responsables.
